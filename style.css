@@ -1,0 +1,209 @@
+@import url(https://db.onlinewebfonts.com/c/f4c9951744c0ef14010218fc1b2f7938?family=Larsseit-Bold);
+@import url(https://db.onlinewebfonts.com/c/4fc4a73ba38cbeb96ac851a5c77bbbd1?family=Neology);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header {
+    font-family: "Larsseit-Bold";
+    font-size: 1rem;
+    background-color: #4A154B;
+    font-size: 0.935rem;
+}
+
+.logo {
+    float: left;
+    margin-right: 1rem;
+    padding: 1.2rem 0 0 3rem;
+}
+
+.nav_left {
+    list-style-type: none;
+    white-space: nowrap;
+    float: left;
+    padding-top: 1.8rem;
+    width:40vw;
+}
+
+.nav_left li {
+    display: inline-block;
+    margin-inline: 1.1rem;
+}
+
+.nav_left li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_left li a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_left li:nth-child(3) a:hover{
+    text-decoration: underline}
+.nav_left li:nth-child(5) a:hover{
+    text-decoration: underline;}
+
+.nav_right {
+    list-style-type: none;
+    white-space: nowrap;
+    padding-top: 1.2rem;
+    margin-right: 3rem;
+    float: right;
+    width: 36vw;
+}
+
+.nav_right li {
+    display: inline-block;
+    margin-inline: 1.1rem;
+}
+
+.nav_right li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_right li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_right li:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+.nav_right li:nth-child(3) a{
+    padding: 0.7rem 0.9rem;
+    border: 0.05rem solid white;
+    border-radius: 0.4rem;
+}
+
+.nav_right li:nth-child(3) a:hover{
+    padding: 0.7rem 0.9rem;
+    outline: 0.1rem solid white;
+    outline-offset: -0.15rem;
+}
+
+.nav_right li:nth-child(4) a{
+    padding: 0.7rem 0.9rem;
+    color: #4A154B;
+    background: white;
+    border: 0.05rem solid #4A154B;
+    border-radius: 0.4rem;
+}
+
+.nav_right li:nth-child(4) a:hover{
+    padding: 0.7rem 0.9rem;
+    outline: 0.1rem solid #4A154B;
+    outline-offset: -0.15rem;
+}
+
+main {
+    color: white;
+    background-color: #4A154B;
+    padding-left: 3rem;
+}
+
+
+.opening_square {
+    margin-left: 2rem;
+    padding: 13rem;
+    background-color: #524552;
+    width: 45vw;
+    height: 15rem;
+    float: right;
+}
+
+.writing {
+    padding-top: 8rem;
+    
+}
+
+.mfp {
+    font-family: "Larsseit-Bold";
+    color: white;
+    font-size: 3.73rem;
+}
+
+.bfp {
+    font-family: "Larsseit-Bold";
+    color: orange;
+    font-size:3.73rem;
+}
+
+.note {
+    padding-top: 0.8rem;
+    font-family: "Neology";
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.signup_buttons {
+    font-family: "Larsseit-Bold";
+    list-style-type: none;
+    white-space: nowrap;
+    padding-top: 2.3rem;
+}
+
+.signup_buttons li {
+    display: inline-block;
+    margin-inline: 0.5rem;
+    margin-left: 0;
+}
+
+.signup_buttons a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.signup_buttons li:nth-child(1) a{
+    padding: 0.7rem 2rem;
+    color: #4A154B;
+    background: white;
+    border: 0.05rem solid #4A154B;
+    border-radius: 0.4rem;
+    width: 23vw;
+}
+
+.signup_buttons li:nth-child(1) a:hover{
+    padding: 0.8rem 2rem;
+    outline: 0.1rem solid #4A154B;
+    outline-offset: -0.15rem;
+}
+
+.google_logo {
+    float:left;
+}
+
+.google_text {
+    display:inline-block;
+    margin-left: 1rem;
+}
+
+.signup_buttons li:nth-child(2) a{
+    padding: 0.8rem 2rem;
+    color: white;
+    background: rgb(46, 112, 225);
+    border: 0.05rem solid rgb(46, 112, 225);
+    border-radius: 0.4rem;
+}
+
+.free {
+    font-family: "Neology";
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.normal {
+    font-weight: 100;
+}
+
+
+    
+
